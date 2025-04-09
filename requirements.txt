@@ -4,3 +4,5 @@ pytest
 requests
 # Python Dotenv - To load environment variables from .env file
 python-dotenv
+# PyJWT - JSON Web Token support (used for handling Bearer tokens if needed)
+PyJWT
