@@ -20,15 +20,16 @@ This repo contains API automation for the Book Cart system.
 ## Folder Structure
 
 ```
-bookcart-api-tests/ 
-│ 
-├── api/             # API wrapper classes (UserAPI, BookAPI, etc.) 
-├── config/          # config.py and .env file 
-├── docs/            # Documentation: test_plan.md, test_cases.md, etc. 
-├── tests/           # Test files and conftest.py 
-├── utils/           # Logging utility, retry mechanism 
-├── requirements.txt # Dependencies 
-└── README.md        # This file
+bookcart-api-tests/
+│
+├── api/             # API wrapper classes (UserAPI, BookAPI, etc.)
+├── config/          # Configuration files (config.py, .env)
+├── docs/            # Documentation: test_plan.md, test_cases.md, etc.
+├── helper/          # Reusable helper functions 
+├── tests/           # Test files and conftest.py
+├── utils/           # Shared utilities like Logger and future shared tools
+├── requirements.txt # Project dependencies
+└── README.md        # Project overview and instructions
 ```
 
 ---
@@ -83,7 +84,7 @@ pytest -v -m smoke
 
 ## Test Logs
 
-Logs are saved to `test_run.log` in the directory where pytest is run.
+Logs are saved to `test_run.log` in the directory where pytest is run (root folder for above run examples).
 
 ---
 
