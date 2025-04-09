@@ -20,7 +20,7 @@ This repo contains API automation for the Book Cart system.
 ## Folder Structure
 
 ```
-book_cart_automation/ 
+bookcart-api-tests/ 
 │ 
 ├── api/             # API wrapper classes (UserAPI, BookAPI, etc.) 
 ├── config/          # config.py and .env file 
@@ -46,8 +46,8 @@ book_cart_automation/
 ### 1. Clone the Repo & Navigate
 
 ```bash
-git clone https://github.com/dzailibu/book_cart_automation.git
-cd book_cart_automation
+git clone https://github.com/dzailibu/bookcart-api-tests.git
+cd bookcart-api-tests
 ```
 
 ### 2. Create Virtual Environment (Optional)
