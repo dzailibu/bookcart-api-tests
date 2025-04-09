@@ -1,0 +1,6 @@
+# Pytest - Testing Framework
+pytest
+# Requests - HTTP client for making API requests
+requests
+# Python Dotenv - To load environment variables from .env file
+python-dotenv
