@@ -29,6 +29,7 @@ bookcart-api-tests/
 ├── tests/           # Test files and conftest.py
 ├── utils/           # Shared utilities like Logger and future shared tools
 ├── requirements.txt # Project dependencies
+├── pytest.ini       # Pytest configuration for custom markers
 └── README.md        # Project overview and instructions
 ```
 
